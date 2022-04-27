@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+.Wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 20pt;
+}
+.Card{
+  width: 50pt;
+  /* border: 2px solid black; */
+  margin: 5pt;
+}
+
+.Card-down{
+  background-color: #282c34;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  width: 50pt;
+  height: 60pt;
+  color: black;
+  border-radius: 10pt;
+}
+
+.Card-up{
+  background-color: yellow;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  width: 50pt;
+  height: 60pt;
+  color: yellow;
+  border-radius: 10pt;
+}
+
+.ok{
+  display: none;
+  width:50pt;
+  height:25pt;
+  left: 50%;
+  /* transform: translateX(-50%); */
+
+}
